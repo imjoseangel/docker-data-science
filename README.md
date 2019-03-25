@@ -27,7 +27,7 @@ mkdir notebooks
 Run Docker container with the following command:
 
 ```sh
-docker run -it -p 8888:8888 -p 6006:6006 -d -v $(pwd)/notebooks:/notebooks --name datascience imjoseangel/docker-data-science
+docker run -it -p 8888:8888 -p 6006:6006 -d -v $(pwd)/notebooks:/notebooks --name datascience imjoseangel/datascience
 ```
 
 **Parameters**:
