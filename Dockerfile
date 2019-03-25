@@ -1,8 +1,9 @@
-FROM ubuntu:latest
+FROM ubuntu:bionic
 
-LABEL maintainer imjoseangel
+LABEL maintainer=imjoseangel
 
-RUN apt-get update && apt-get install -y wget ca-certificates \
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    wget ca-certificates \
     build-essential cmake pkg-config \
     libjpeg8-dev libtiff5-dev \
     libavcodec-dev libavformat-dev libswscale-dev libv4l-dev \
