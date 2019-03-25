@@ -17,7 +17,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 RUN pip3 install --upgrade setuptools
 RUN pip3 install cython pystan
 RUN pip3 install tensorflow && \
-    pip3 install numpy pandas sklearn matplotlib seaborn jupyter pyyaml h5py psycopg2 sqlalchemy && \
+    pip3 install numpy pandas sklearn matplotlib seaborn jupyter pyyaml h5py psycopg2 sqlalchemy folium && \
     pip3 install keras --no-deps && \
     pip3 install opencv-python && \
     pip3 install imutils
