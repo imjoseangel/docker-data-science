@@ -20,6 +20,7 @@ RUN pip3 install tensorflow && \
     pip3 install keras --no-deps && \
     pip3 install opencv-python && \
     pip3 install imutils
+RUN pip3 install fbprophet
 
 RUN ["mkdir", "notebooks"]
 WORKDIR /notebooks

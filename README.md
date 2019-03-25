@@ -27,7 +27,7 @@ mkdir notebooks
 Run Docker container with the following command:
 
 ```sh
-docker run -it -p 8888:8888 -p 6006:6006 -d -v $(pwd)/notebooks:/notebooks imjoseangel/docker-data-science
+docker run -it -p 8888:8888 -p 6006:6006 -d -v $(pwd)/notebooks:/notebooks --name datascience imjoseangel/docker-data-science
 ```
 
 **Parameters**:
@@ -36,3 +36,4 @@ docker run -it -p 8888:8888 -p 6006:6006 -d -v $(pwd)/notebooks:/notebooks imjos
 - ```-p 6006:6006``` to export TensorflowDashboard Web interface
 - ```-d``` to run Docker container in background
 - ```-v notebooks:/notebooks``` to mount just created *notebooks* folder Docker inside container
+- - ```--name datascience``` to name your Docker container as *datascience*
