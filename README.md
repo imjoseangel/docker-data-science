@@ -14,7 +14,7 @@ This is fully ready Docker container with:
 - Keras
 - OpenCV 3
 
-It runs on top of [Ubuntu 18.04 Docker container](https://hub.docker.com/_/ubuntu/) ([Dockerfile](https://github.com/imjoseangel/docker-data-science/blob/devel/Dockerfile)) and [Anaconda Docker container](https://hub.docker.com/r/continuumio/anaconda3/) ([Dockerfile](https://github.com/imjoseangel/docker-data-science/blob/devel/Dockerfile.anaconda))
+It runs on top of [Ubuntu 18.04 Docker container](https://hub.docker.com/_/ubuntu/) ([Dockerfile](https://github.com/imjoseangel/docker-data-science/blob/devel/Dockerfile))
 
 ## Running container
 
