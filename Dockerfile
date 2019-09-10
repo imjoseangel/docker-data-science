@@ -5,7 +5,7 @@ LABEL maintainer=imjoseangel
 RUN apt-get update && apt-get install -y --no-install-recommends \
     wget ca-certificates \
     build-essential cmake pkg-config \
-    libjpeg8-dev libtiff5-dev \
+    libjpeg8-dev libtiff5-dev libpq-dev \
     libavcodec-dev libavformat-dev libswscale-dev libv4l-dev \
     libxvidcore-dev libx264-dev \
     libgtk-3-dev apt-utils \
